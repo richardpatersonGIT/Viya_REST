@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Viya_REST repository page.
 
 You can use the [editor on GitHub](https://github.com/richardpatersonGIT/Viya_REST/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
