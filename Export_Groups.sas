@@ -1,3 +1,46 @@
+
+/* this macro creates an export file ready for using with the CLI command */
+
+/* sas-admin transfer export --request @/tmp/exportgroups.json */
+
+/* {
+"Version":1,
+"name":"&packagename",
+"description":"&packagedescription",
+"items":[
+"/identities/groups/SASAdministrators"
+,
+"/identities/groups/EsriUsers"
+,
+"/identities/groups/DataBuilders"
+,
+"/identities/groups/ApplicationAdministrators"
+,
+"/identities/groups/SASScoreUsers"
+,
+"/identities/groups/Content creators"
+,
+"/identities/groups/All_Windows_RO"
+,
+"/identities/groups/EInvoice"
+,
+"/identities/groups/All_Windows"
+,
+"/identities/groups/Change_Password"
+,
+"/identities/groups/Portal_Administrator"
+,
+"/identities/groups/Notifications_WSC"
+,
+"/identities/groups/group2"
+,
+"/identities/groups/group1"
+]
+}
+*/
+
+
+
 %macro exportGroups(server=, exportfile=, username=, password=); 
   
   filename response TEMP encoding='UTF-8';
